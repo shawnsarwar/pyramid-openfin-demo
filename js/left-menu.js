@@ -32,37 +32,37 @@ class LeftMenu extends HTMLElement {
             //     uuid: "PyramidTradeView"
             // },
             {
-                url: "http://localhost:5555/pyramid-trading-view.html",
+                url: "https://shawnsarwar.github.io/pyramid-openfin-demo/pyramid-trading-view.html",
                 printName: "TradeView",
                 processAffinity: "tv_1",
             },
 			            {
-                url: "http://localhost:5555/pyramid-client.html",
+                url: "https://shawnsarwar.github.io/pyramid-openfin-demo/pyramid-client.html",
                 printName: "Pyramid Client",
                 processAffinity: "pa_1",
             },
             {
-                url: "http://localhost:5555/pyramid-demo.html",
+                url: "https://shawnsarwar.github.io/pyramid-openfin-demo/pyramid-demo.html",
                 printName: "Pyramid Report Embed",
                 processAffinity: "pa_1",
             },
             {
-                url: "http://localhost:5555/pyramid-demo-2.html",
+                url: "https://shawnsarwar.github.io/pyramid-openfin-demo/pyramid-demo-2.html",
                 printName: "Pyramid Dashboard Embed",
                 processAffinity: "pa_2",
             },
 			            {
-                url: "http://localhost:5555/pyramid-demo-3.html",
+                url: "https://shawnsarwar.github.io/pyramid-openfin-demo/pyramid-demo-3.html",
                 printName: "Pyramid KPI Embed",
                 processAffinity: "pa_3",
             },
 						            {
-            url: "http://localhost:5555/pyramid-widget-view.html",
+            url: "https://shawnsarwar.github.io/pyramid-openfin-demo/pyramid-widget-view.html",
                 printName: "Pyramid Widget",
                 processAffinity: "pa_4",
             },
             {
-                url: "http://localhost:5555/pyramid-filter.html",
+                url: "https://shawnsarwar.github.io/pyramid-openfin-demo/pyramid-filter.html",
                 printName: "Pyramid Filter",
                 processAffinity: "pa_5",
             },
@@ -86,7 +86,7 @@ class LeftMenu extends HTMLElement {
                 processAffinity: "ps_1",
             },
             {
-                url: "http://localhost:5555/notify/",
+                url: "https://shawnsarwar.github.io/pyramid-openfin-demo/notify/",
                 printName: "Pyramid Notifications",
                 processAffinity: "pa_7",
             }
