@@ -1,0 +1,77 @@
+{
+    "devtools_port": 9009,
+    "runtime": {
+        "arguments": "--v=1 --inspect",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Pyramid Demo",
+        "icon": "https://openfin.github.io/golden-prototype/favicon.ico",
+        "name": "Pyramid Demo"
+    },
+    "platform": {
+        "uuid": "platform_customization_local",
+        "applicationIcon": "https://openfin.github.io/golden-prototype/favicon.ico",
+        "autoShow": false,
+        "providerUrl": "https://shawnsarwar.github.io/pyramid-openfin-demo/provider.html",
+        "permissions": {
+            "ExternalWindow": {
+              	"wrap": true
+            },
+            "System": {
+                "getAllExternalWindows": true,
+                "launchExternalProcess": true,
+                "readRegistryValue": false,
+                "terminateExternalProcess": true
+            }
+        },
+        "defaultWindowOptions": {
+            "url": "https://shawnsarwar.github.io/pyramid-openfin-demo/platform-window.html",
+            "contextMenu": true,
+            "defaultWidth": 800,
+            "defaultHeight": 600,
+            "defaultLeft": 50,
+            "defaultTop": 50,
+            "saveWindowState": false,
+            "backgroundThrottling": true,
+            "minHeight": 10,
+            "minWidth": 10
+        },
+        "defaultViewOptions": {
+            "experimental": {
+                "childWindows": true
+            }
+        },
+        "commands": [
+            {
+                "command": "stack.nextTab",
+                "keys": "Ctrl+Tab"
+            }
+        ]
+    },
+    "snapshot": {
+        "windows": [
+            {
+                "layout": {
+                    "content": [
+                        {
+                            "type": "stack",
+                            "id": "no-drop-target",
+                            "content": [
+                                {
+                                    "type": "component",
+                                    "componentName": "view",
+                                    "componentState": {
+                                        "processAffinity": "ps_1",
+                                        "url": "https://cdn.openfin.co/embed-web/chart.html"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
