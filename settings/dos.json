@@ -1,0 +1,16 @@
+{
+    "desktopSettings": {
+      "systemApps": {
+        "home": {
+          "customConfig": {
+            "appDirectoryUrl": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/apps.json",
+            "workspacesUrl": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/workspaces.json",
+            "style": {
+              "iconUrl": "https://www.pyramidanalytics.com/images/default-source/logos/favicon.png"
+            }
+          }
+        }
+      }
+    }
+  }
+  
