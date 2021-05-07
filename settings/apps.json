@@ -44,7 +44,7 @@
         "name": "Pyramid Notification Settings",
         "appId": "pa-notifications",
         "title": "Pyramid Notification Settings",
-        "manifest": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/apps/pa-client.json",
+        "manifest": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/apps/pa-notifications.json",
         "manifestType": "view",
         "description": "Openfin Pyramid Notification Settings"
     }
