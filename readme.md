@@ -3,7 +3,7 @@
 This repository acts as a both a hosted application for the demonstration of Pyramid Analytic's integration with OpenFin's Desktop, as well as a stand-alone embedding demo. This is a completely client side demo. Despite the artifacts being hosted, the only server components belong to the Pyramid instance that you point the application to. Your connection and authentication information and the content you build will reside in the IndexedDB of your browser (or OpenFin RVM) depending on your platform.
 
 ### Application Overview:
-
+ 
 The application authenticates with a Pyramid instance where you have a valid user. 
 
 ![image info](./doc/settings.JPG)
@@ -52,7 +52,7 @@ OpenFin should start and present you with a Launcher. Start typing "PA" to be pr
 
 *To bring up the OF Launcher press "ctrl" and "space" at the same time.*
 
-![image info](./doc/openfin-launcher.JPG)
+![image info](./doc/openfin-launcher.jpg)
 
 *Your notifications will appear as a pop-up.*
 
