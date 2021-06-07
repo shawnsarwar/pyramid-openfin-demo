@@ -44,8 +44,10 @@ Installation:
   - enter `./local_install`
   - run: `npm i`
     - this installs OpenFin CLI
-  - run: `npm run start:workspace`
+  - run: `npm run dos`
+    - this connects OpenFin to the Pyramid application.
     - when prompted answer "Yes" to the registry update.
+  - run: `npm run start:workspace`
     - this starts OpenFIN cli using our DOS profile.
 
 OpenFin should start and present you with a Launcher. Start typing "PA" to be prompted with Pyramid content. See usage flow from the browser based section ^^
