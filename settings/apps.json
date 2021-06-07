@@ -1,51 +1,47 @@
 [
     {
-        "name": "expero-company-news",
-        "title": "Gateway - Company News",
-        "manifest": "https://openfin-iex.experolabs.com/openfin/manifests/company-news.json",
+      "name": "pa-view",
+      "title": "PA: View Saved Content",
+      "manifest": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/pyramid/local-view.json",
+      "manifestType": "view",
+      "icons": [
+        {
+          "icon": "https://www.pyramidanalytics.com/images/default-source/logos/favicon.png"
+        }
+      ]
+    },
+    {
+        "name": "pa-edit",
+        "title": "PA: Edit Saved Content",
+        "manifest": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/pyramid/local-edit.json",
         "manifestType": "view",
         "icons": [
-            {
-                "icon": "https://openfin-iex.experolabs.com/favicon.ico"
-            }
+          {
+            "icon": "https://www.pyramidanalytics.com/images/default-source/logos/favicon.png"
+          }
         ]
-    },
-    {
-        "name": "expero-description",
-        "title": "Gateway - Description",
-        "manifest": "https://openfin-iex.experolabs.com/openfin/manifests/description.json",
+      },
+      {
+        "name": "pa-trigger",
+        "title": "PA: Task Management",
+        "manifest": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/pyramid/local-trigger.json",
         "manifestType": "view",
         "icons": [
-            {
-                "icon": "https://openfin-iex.experolabs.com/favicon.ico"
-            }
+          {
+            "icon": "https://www.pyramidanalytics.com/images/default-source/logos/favicon.png"
+          }
         ]
-    },
-    {
-        "name": "expero-stock-quote",
-        "title": "Gateway - Stock Quote",
-        "manifest": "https://openfin-iex.experolabs.com/openfin/manifests/stock-quote.json",
+      },
+      {
+        "name": "pa-settings",
+        "title": "PA: Settings and Credentials",
+        "manifest": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/pyramid/local-settings.json",
         "manifestType": "view",
         "icons": [
-            {
-                "icon": "https://openfin-iex.experolabs.com/favicon.ico"
-            }
+          {
+            "icon": "https://www.pyramidanalytics.com/images/default-source/logos/favicon.png"
+          }
         ]
-    },
-    {
-        "name": "Pyramid Client",
-        "appId": "pa-client",
-        "title": "Pyramid Client",
-        "manifest": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/apps/pa-client.json",
-        "manifestType": "view",
-        "description": "Full Pyramid Analytics Client"
-    },
-    {
-        "name": "Pyramid Notification Settings",
-        "appId": "pa-notifications",
-        "title": "Pyramid Notification Settings",
-        "manifest": "https://shawnsarwar.github.io/pyramid-openfin-demo/settings/apps/pa-notifications.json",
-        "manifestType": "view",
-        "description": "Openfin Pyramid Notification Settings"
-    }
-]
+      }
+  ]
+  
