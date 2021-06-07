@@ -2,7 +2,21 @@
 
 This repository acts as a both a hosted application for the demonstration of Pyramid Analytic's integration with OpenFin's Desktop, as well as a stand-alone embedding demo. This is a completely client side demo. Despite the artifacts being hosted, the only server components belong to the Pyramid instance that you point the application to. Your connection and authentication information and the content you build will reside in the IndexedDB of your browser (or OpenFin RVM) depending on your platform.
 
-The application authenticates with a Pyramid instance where you have a valid user. You can then pick from content that is available for you users and create display profiles for the content, including CSS instructions for how the content will display when embedded. Once a profile is saved for a piece of content, you can pick it from a list and view it.
+### Application Overview:
+
+The application authenticates with a Pyramid instance where you have a valid user. 
+
+![image info](./doc/settings.jpg)
+
+You can then pick from content that is available for you users and create display profiles for the content, including CSS instructions for how the content will display when embedded.
+
+![image info](./doc/edit.jpg)
+
+Once a profile is saved for a piece of content, you can pick it from a list and view it.
+
+![image info](./doc/view.jpg)
+
+![image info](./doc/saved-view.jpg)
 
 When used within OpenFin, the application also will poll the Pyramid server for changes in your bulletin board and depending on what you've selected, optionally notify you via the OpenFin Notification Center.
 
@@ -35,4 +49,15 @@ Installation:
     - this starts OpenFIN cli using our DOS profile.
 
 OpenFin should start and present you with a Launcher. Start typing "PA" to be prompted with Pyramid content. See usage flow from the browser based section ^^
-To bring up the OF Launcher press "ctrl" and "space" at the same time.
+
+*To bring up the OF Launcher press "ctrl" and "space" at the same time.*
+
+![image info](./doc/openfin-launcher.jpg)
+
+*Your notifications will appear as a pop-up.*
+
+![image info](./doc/sticky-stacked.jpg)
+
+*And also in the OpenFin Notification Center in the Windows Toolbar.*
+
+![image info](./doc/in-notify-center.jpg)
